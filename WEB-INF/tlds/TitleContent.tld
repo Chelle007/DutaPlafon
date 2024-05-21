@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+        "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+  <tlibversion>1.0</tlibversion>
+  <jspversion>1.1</jspversion>
+  <shortname>Transform</shortname>
+  <tag>
+    <name>Title</name>
+    <tagclass>com.hrd.transform.TitleContentTag</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>simple example</info>
+    <attribute><name>title</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+  </tag>
+  <tag>
+    <name>Description</name>
+    <tagclass>com.hrd.transform.Description</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>Description tag</info>
+    <attribute><name>type</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>description</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>param1</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+  </tag>
+  <tag>
+    <name>Extra</name>
+    <tagclass>com.hrd.transform.ShowExtra</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>Extra Title tag</info>
+    <attribute><name>type</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>description</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>param1</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+  </tag>
+  <tag>
+    <name>Component</name>
+    <tagclass>com.hrd.transform.ComponentScreen</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>simple example</info>
+    <attribute><name>paramname</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>componentname</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>descname</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>ercode</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>formatdate</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>data</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>index</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>def</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>view</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>user</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>datadescription</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+    <attribute><name>indexcombo</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+  </tag>
+</taglib>
